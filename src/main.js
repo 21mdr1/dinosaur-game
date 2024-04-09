@@ -4,7 +4,8 @@ import RunningScene from './scenes/RunningScene';
 const config = {
     type: Phaser.AUTO,
     width: 800,
-    height: 600,
+    height: 400,
+    backgroundColor: '#F7F7F7',
     physics: {
         default: 'arcade',
         arcade: {
